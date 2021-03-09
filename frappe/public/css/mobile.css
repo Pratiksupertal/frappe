@@ -187,7 +187,6 @@ body {
   }
   body[data-sidebar="0"] #navbar-breadcrumbs,
   body[data-sidebar="0"] .navbar-home {
-    
     margin-left: -13px;
     width: 244px;
     margin-right: 0;
