@@ -1,8 +1,8 @@
 frappe.provide('frappe.ui.misc');
 frappe.ui.misc.about = function() {
 	if(!frappe.ui.misc.about_dialog) {
-		var d = new frappe.ui.Dialog({title: __('Frappe Framework')});
-
+		var d = new frappe.ui.Dialog({title: __('Mamba Retail')});
+/*
 		$(d.body).html(repl("<div>\
 		<p>"+__("Open Source Applications for the Web")+"</p>  \
 		<p><i class='fa fa-globe fa-fw'></i>\
@@ -15,7 +15,7 @@ frappe.ui.misc.about = function() {
 		<hr>\
 		<p class='text-muted'>&copy; Frappe Technologies Pvt. Ltd and contributors </p> \
 		</div>", frappe.app));
-
+*/
 		frappe.ui.misc.about_dialog = d;
 
 		frappe.ui.misc.about_dialog.on_page_show = function() {

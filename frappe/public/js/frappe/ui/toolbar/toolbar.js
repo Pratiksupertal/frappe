@@ -83,7 +83,7 @@ frappe.ui.toolbar.Toolbar = Class.extend({
 	},
 
 	setup_help: function() {
-		frappe.provide('frappe.help');
+		// frappe.provide('frappe.help');
 		frappe.help.show_results = show_results;
 
 		this.search = new frappe.search.SearchDialog();
@@ -128,11 +128,11 @@ frappe.ui.toolbar.Toolbar = Class.extend({
 			for (var i = 0; i < links.length; i++) {
 				var link = links[i];
 				var url = link.url;
-				$("<a>", {
+				/*$("<a>", {
 					href: link.url,
 					text: link.label,
 					target: "_blank"
-				}).appendTo($help_links);
+				}).appendTo($help_links);*/
 			}
 
 			$('.dropdown-help .dropdown-menu').on('click', 'a', show_results);

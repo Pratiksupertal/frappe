@@ -187,10 +187,7 @@ body {
   }
   body[data-sidebar="0"] #navbar-breadcrumbs,
   body[data-sidebar="0"] .navbar-home {
-    margin-left: -13px;
-    width: 244px;
-    margin-right: 0;
-    margin-top: -10px;
+  
   }
 }
 @media (max-width: 991px) and (max-width: 480px) {
